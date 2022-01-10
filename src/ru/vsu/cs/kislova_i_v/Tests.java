@@ -21,7 +21,7 @@ public class Tests {
     }
 
     @Test
-    public void test1() throws FileNotFoundException {
+    public void testForTenBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
                 + "\\inputForTests\\input01.txt");
         int numberOfBudgetSeats = 10;
@@ -33,7 +33,7 @@ public class Tests {
     }
 
     @Test
-    public void test2() throws FileNotFoundException {
+    public void testForFiveBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
                 + "\\inputForTests\\input02.txt");
         int numberOfBudgetSeats = 5;
@@ -45,7 +45,7 @@ public class Tests {
     }
 
     @Test
-    public void test3() throws FileNotFoundException {
+    public void testForFifteenBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
                 + "\\inputForTests\\input03.txt");
         int numberOfBudgetSeats = 15;
@@ -57,7 +57,7 @@ public class Tests {
     }
 
     @Test
-    public void test4() throws FileNotFoundException {
+    public void testForTwentyBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
                 + "\\inputForTests\\input04.txt");
         int numberOfBudgetSeats = 20;
@@ -69,7 +69,7 @@ public class Tests {
     }
 
     @Test
-    public void test5() throws FileNotFoundException {
+    public void testForThirtyBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
                 + "\\inputForTests\\input05.txt");
         int numberOfBudgetSeats = 30;
