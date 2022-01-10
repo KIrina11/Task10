@@ -23,7 +23,7 @@ public class Tests {
     @Test
     public void testForTenBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
-                + "\\inputForTests\\input01.txt");
+                + "\\inputForTests\\input01TestForTenBudgetSeats.txt");
         int numberOfBudgetSeats = 10;
         List<String[]> modifiedList = ListUtils.writeMatrixToArray2(StudentInformation.makeListToStringArray2(Selection.selectionStudents(ListUtils.makeListToStudentInformation(list), numberOfBudgetSeats)));
         List<String[]> correctList = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects"
@@ -35,7 +35,7 @@ public class Tests {
     @Test
     public void testForFiveBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
-                + "\\inputForTests\\input02.txt");
+                + "\\inputForTests\\input02TestForFiveBudgetSeats.txt");
         int numberOfBudgetSeats = 5;
         List<String[]> modifiedList = ListUtils.writeMatrixToArray2(StudentInformation.makeListToStringArray2(Selection.selectionStudents(ListUtils.makeListToStudentInformation(list), numberOfBudgetSeats)));
         List<String[]> correctList = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects"
@@ -47,7 +47,7 @@ public class Tests {
     @Test
     public void testForFifteenBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
-                + "\\inputForTests\\input03.txt");
+                + "\\inputForTests\\input03TestForFifteenBudgetSeats.txt");
         int numberOfBudgetSeats = 15;
         List<String[]> modifiedList = ListUtils.writeMatrixToArray2(StudentInformation.makeListToStringArray2(Selection.selectionStudents(ListUtils.makeListToStudentInformation(list), numberOfBudgetSeats)));
         List<String[]> correctList = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects"
@@ -59,7 +59,7 @@ public class Tests {
     @Test
     public void testForTwentyBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
-                + "\\inputForTests\\input04.txt");
+                + "\\inputForTests\\input04TestForTwentyBudgetSeats.txt");
         int numberOfBudgetSeats = 20;
         List<String[]> modifiedList = ListUtils.writeMatrixToArray2(StudentInformation.makeListToStringArray2(Selection.selectionStudents(ListUtils.makeListToStudentInformation(list), numberOfBudgetSeats)));
         List<String[]> correctList = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects"
@@ -71,7 +71,7 @@ public class Tests {
     @Test
     public void testForThirtyBudgetSeats() throws FileNotFoundException {
         List<String[]> list = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects\\Task10_num23"
-                + "\\inputForTests\\input05.txt");
+                + "\\inputForTests\\input05TestForThirtyBudgetSeats.txt");
         int numberOfBudgetSeats = 30;
         List<String[]> modifiedList = ListUtils.writeMatrixToArray2(StudentInformation.makeListToStringArray2(Selection.selectionStudents(ListUtils.makeListToStudentInformation(list), numberOfBudgetSeats)));
         List<String[]> correctList = ListUtils.readSplitListFromFile("C:\\Users\\Ирина\\IdeaProjects"
